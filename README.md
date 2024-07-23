@@ -33,5 +33,6 @@ El formulario permite seleccionar la fila del lead y el nuevo estado.
 Al enviar el formulario, se actualiza el estado del lead en la hoja "Leads" y se registra el cambio en la hoja "Historial de Cambios".
 
 Te comparto los enlaces:
--- Codigo AppsScript: https://github.com/lorenang/Agenda-MenuEstados/blob/main/Code.gs
--- Enlace BD: https://www.appsheet.com/dbs/database/S_TvGmh1ra46EE3aY_gx7b?utm_source=share&utm_medium=referral&utm_campaign=databaselink
+# -- Codigo AppsScript: https://github.com/lorenang/Agenda-MenuEstados/blob/main/Code.gs
+# -- Enlace BD: https://docs.google.com/spreadsheets/d/14Gb4q4EwvWUxs6GDHOHwjDxj1fc4mdGmBcP4DzgQxQA/edit?gid=0#gid=0
+# -- Enlace App: https://www.appsheet.com/start/0efddb66-3810-4232-856d-ad5cc49a06de
