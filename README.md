@@ -31,3 +31,6 @@ Actualización del Estado del Lead y Registro de Cambios:
 
 El formulario permite seleccionar la fila del lead y el nuevo estado.
 Al enviar el formulario, se actualiza el estado del lead en la hoja "Leads" y se registra el cambio en la hoja "Historial de Cambios".
+
+Te comparto los enlaces:
+-- Codigo AppsScript: https://github.com/lorenang/Agenda-MenuEstados/blob/main/Code.gs
