@@ -19,20 +19,19 @@ Hola Iván 👋
 He creado la interfaz gráfica para que el equipo comercial (los closers) puedan actualizar el estado de sus agendaciones de llamada en Google Sheets utilizando Google Apps Script. Aquí tienes los pasos y enlaces necesarios para acceder y utilizar el sistema.
 
 Funcionalidades Implementadas:
-Menú Personalizado: Añadí un menú llamado "Actualizar Estado" en Google Sheets para que los closers puedan acceder fácilmente a la interfaz.
-Formulario Emergente: Implementé un formulario emergente donde los closers pueden seleccionar la fila del lead y el nuevo estado.
-Registro de Cambios: Cualquier cambio realizado en el estado del lead se registra automáticamente en una pestaña separada llamada "Historial de Cambios".
+	- Menú Personalizado: Añadí un menú llamado "Actualizar Estado" en Google Sheets para que los closers puedan acceder fácilmente a la interfaz.
+	- Formulario Emergente: Implementé un formulario emergente donde los closers pueden seleccionar la fila del lead y el nuevo estado.
+	- Registro de Cambios: Cualquier cambio realizado en el estado del lead se registra automáticamente en una pestaña separada llamada "Historial de Cambios".
+
 Pasos Realizados:
-Creación del Menú Personalizado y Formulario Emergente:
+	1. Creación del Menú Personalizado y Formulario Emergente: Al abrir el documento, se añade un menú personalizado en Google Sheets. Al seleccionar la opción de "Cambiar Estado", se abre un formulario emergente para actualizar el estado del lead.
+	2. Actualización del Estado del Lead y Registro de Cambios: El formulario permite seleccionar la fila del lead y el nuevo estado. Al enviar el formulario, se actualiza el estado del lead en la hoja "Leads" y se registra el cambio en la hoja "Historial de Cambios".
 
-Al abrir el documento, se añade un menú personalizado en Google Sheets.
-Al seleccionar la opción de "Cambiar Estado", se abre un formulario emergente para actualizar el estado del lead.
-Actualización del Estado del Lead y Registro de Cambios:
+Enlaces:
+-- Codigo AppsScript: https://github.com/lorenang/Agenda-MenuEstados/blob/main/Code.gs
+-- Enlace BD: https://docs.google.com/spreadsheets/d/14Gb4q4EwvWUxs6GDHOHwjDxj1fc4mdGmBcP4DzgQxQA/edit?gid=0#gid=0
+-- Enlace App: https://www.appsheet.com/start/0efddb66-3810-4232-856d-ad5cc49a06de
 
-El formulario permite seleccionar la fila del lead y el nuevo estado.
-Al enviar el formulario, se actualiza el estado del lead en la hoja "Leads" y se registra el cambio en la hoja "Historial de Cambios".
+He decidido implementar esta solución utilizando Google Apps Script para automatizar y personalizar la lógica de negocio y AppSheet para proporcionar una interfaz fácil de usar para los closers. La sincronización automática entre Google Sheets y AppSheet asegura que la información esté siempre actualizada y accesible desde cualquier dispositivo. Este enfoque no solo hace que el sistema sea eficiente, sino que también me brinda la oportunidad de aprender y aplicar nuevas tecnologías.
 
-Te comparto los enlaces:
-# -- Codigo AppsScript: https://github.com/lorenang/Agenda-MenuEstados/blob/main/Code.gs
-# -- Enlace BD: https://docs.google.com/spreadsheets/d/14Gb4q4EwvWUxs6GDHOHwjDxj1fc4mdGmBcP4DzgQxQA/edit?gid=0#gid=0
-# -- Enlace App: https://www.appsheet.com/start/0efddb66-3810-4232-856d-ad5cc49a06de
+Cualquier duda o comentario, quedo atento.
