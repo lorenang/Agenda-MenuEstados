@@ -34,3 +34,4 @@ Al enviar el formulario, se actualiza el estado del lead en la hoja "Leads" y se
 
 Te comparto los enlaces:
 -- Codigo AppsScript: https://github.com/lorenang/Agenda-MenuEstados/blob/main/Code.gs
+-- Enlace BD: https://www.appsheet.com/dbs/database/S_TvGmh1ra46EE3aY_gx7b?utm_source=share&utm_medium=referral&utm_campaign=databaselink
